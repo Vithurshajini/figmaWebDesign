@@ -1,0 +1,520 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: #6B3CC9;
+    width: 1440px;
+    height: 77px;
+    top: 0px;
+    left: 0px;
+    padding: 26px, 80px, 26px, 80px;
+    justify-content: space-between;
+    
+  }
+
+.logo{
+    width: 46.74px;
+    height: 36.11px;
+    top: -11.11px;
+
+  }
+
+  .vector1{
+    width: 25.92px;
+    height: 24.51px;
+    top: 0.01px;
+    left: 60.37px;
+
+  }
+
+  .vector2{
+    width: 18.6px;
+      height: 24.51px;
+      top: 0.01px;
+      left: 84.13px;
+  }
+
+  .vector3{
+    width: 21.77px;
+    height: 24.51px;
+    top: 0.01px;
+    left: 113.01px;
+
+  }
+.vector6{
+  width: 4.54px;
+    height: 24.51px;
+    top: 0.01px;
+    left: 172.14px;
+}
+
+.vector4{
+    width: 4.54px;
+    height: 24.51px;
+    top: 0.01px;
+    left: 138.64px;
+
+  }
+.vector5{
+    width: 20.4px;
+    height: 24.86px;
+    top: -0.17px;
+    left: 147.46px;
+  }
+.vector7{
+    width: 18.62px;
+    height: 24.51px;
+    top: 0.01px;
+    left: 179.23px;
+  }
+.vector8{
+  width: 25.91px;
+  height: 24.51px;
+  top: 0.01px;
+  left: 195.71px;
+  
+}
+.vector9{
+    width: 14.27px;
+    height: 24.51px;
+    top: 0.01px;
+    left: 224.61px;
+}
+
+.service{
+    width: 68px;
+    height: 24.51px;
+    
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.aboutus{
+    width: 73px;
+    height: 24.51px;
+    
+    
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.contactus{
+    width: 92px;
+    height: 24.51px;
+    
+    
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.career{
+    width: 64px;
+    height: 24.51px;
+    
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration:none;
+    color: #ffff;
+    text-transform: uppercase;
+    height: 24.51px;
+    top: 0.01px;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    position:absolute;
+    left: 0;
+    bottom: -10px;
+}
+
+   .hero-section .herosub {
+    position: absolute;
+    width:630px;
+    height:306px;
+    top: 354px;
+    left: 80px;
+    right: 750px;
+    padding :24px 40px 32px 40px;
+    gap: 20px;
+    background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    color: rgba(255, 255, 255, 1);
+   }
+
+   .hero-section .herosub h2 {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    text-align: left;
+   }
+
+   .hero-section .herosub button {
+    width: 214px;
+    height:38px;
+
+    border-radius: 4px;
+    gap: 8px;
+    background: rgba(242, 141, 53, 1);
+   }
+
+   .hero-section .heroimg img {
+    width: 1440px;
+    height: 763px;
+    top: -40px;
+    }
+
+.hero-section {
+    position: relative;
+}
+
+.img2 {
+    display: flex;
+    width: 1064px;
+    height:  414px;
+    top: 857px;
+    left: 188px;
+    gap: 108px;
+}
+
+.img2 img {
+    flex: 1;
+    width: 414px;
+    height: 414px;
+}
+
+.img2 .content1 {
+    width: 542px;
+    height: 187px;
+    gap: 20px;
+}
+.img2 .content1 .content2 {
+    width: 507px;
+    height: 33px;
+    gap: 12px;
+}
+
+.img2 .content1 .para {
+    width: 542px;
+    height: 76px;
+}
+
+.img2 .content1 .para p {
+    flex:1;
+   
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.img2 .content1 .content2 h2 {
+    margin-top: 100px;
+    
+    flex: 1; 
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    color: rgba(107, 60, 201, 1);
+}
+
+.img2 .content1 .para button {
+    width: 214px;
+    height:38px;
+    
+    border-radius: 4px;
+    gap: 8px;
+    background: rgba(242, 141, 53, 1);
+}
+
+.img1 {
+    display: flex;
+    width: 1,064px;
+    height: 416px;
+    top: 1351px;
+    left: 188px;
+    gap: 108px;
+}
+
+.img1 .content3 {
+    width: 800px;
+    height: 206px;
+    gap: 10px;
+}
+
+.img1 .content3 .text {
+    flex: 1;
+    width: 507px;
+    height: 33px;
+    gap: 12px;
+}
+
+.img1 img {
+    flex: 1;
+    width: 414px;
+    height: 206px;
+}
+
+.img1 .content3 .text h2 {
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    color: rgba(107, 60, 201, 1);
+
+}
+
+.img1 .content3 .para {
+    width: 542px;
+    height: 95px;
+}
+
+.img1 .content3 button {
+    width: 214px;
+    height: 38px;
+    
+    border-radius: 4px;
+    gap: 8px;
+    background: rgba(242, 141, 53, 1);
+}
+
+.img1 .content3 .para p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footer {
+    background: rgba(107, 60, 201, 1);
+    width: 1440px;
+    height: 324px;
+    top: 1867px;
+    padding: 40px 80px 20px 80px;
+    gap: 40px;
+}
+
+.footer .footer1 {
+    display: flex;
+    flex: 1;
+}
+
+.footer .footer1 .footer2 {
+    padding-left: 80px;
+    width: 413px;
+    height: 102px;
+    gap: 20px;
+}
+
+.footer .footer1 .footer2 .imgfooter {
+    width: 238.89px;
+    height: 25px;
+}
+
+.footer .footer1 .footer2 .footertext {
+    width: 413px;
+    height: 57px;
+}
+
+.footer .footer1 .footer2 .footertext p {
+    flex: 1;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 20px;
+}
+
+.footer .footer1 .col1 {
+    flex: 1;
+    width: 197px;
+    height:199px;
+    gap: 12px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.footer .footer1 .col1 .list ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.footer .footer1 .col1 .list ul li a {
+    text-decoration: none; 
+    color: white;
+    padding-left: 70px;
+}
+
+.footer .footer1 .col1 h2 {
+    color: white;
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.footer .footer1 .col2 {
+    flex: 1;
+    width: 197px;
+    height: 187px;
+    gap: 12px;
+}
+
+.footer .footer1 .col2 ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.footer .footer1 .col2 ul li a {
+    text-decoration: none; 
+    color: white;
+}
+
+
+.footer .footer1 .col2 h2 {
+    color: white;
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.footer .privacy hr{
+    width: 630px;
+    
+    border: 1px solid #FFFFFF;
+    margin-left: 300px;
+}
+
+.footer .privacy p {
+    color: #FFFFFF;
+    margin-left: 500px;
+}
+
+@media screen and (max-width: 375px){
+    .navbar {
+      background: #6B3CC9;
+      width:375px;
+  height: 77px;
+  padding: 26px 20px 26px 20px;
+
+}
+
+.hero-section .heroimg img{
+    width: 375px;
+    height: 218px;
+    top: 77px;
+    
+ } 
+
+ .hero-section .herosub{
+  position: absolute;
+  width: 375px;
+  height: 294px;
+  top: 220px;
+  padding: 24px 20px 32px 20px;
+  gap: 20px;
+  background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%),
+  linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  color: rgba(255, 255, 255, 1);
+
+ } 
+ .hero-section{
+  position: relative;
+  
+}
+.hero-section .herosub h2{
+ 
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  text-align: left;
+
+
+  }
+  .img2{
+    width:335px;
+    height: 572.82px;
+    top: 649px;
+    left: 20px;
+    gap: 20px;
+
+
+}
+.img2  img{
+   
+    width: 275px;
+    height: 275.82px;
+
+}
+.img2 .content1{
+  width: 335px;
+  height: 277px;
+  gap: 20px;
+  
+
+}
+
+}
+
+
+
+
+
